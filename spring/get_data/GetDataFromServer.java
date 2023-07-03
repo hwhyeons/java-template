@@ -6,6 +6,7 @@ import java.net.URL;
 /**
 (클라이언트)
 특정 주소 URL을 실행해서 문자열 데이터를 받아오는 코드
+(서버에서 Object를 주는 경우에도 String으로 ->JSON)
 */
 public class GetDataFromSpring {
     public static void main(String[] args) {
