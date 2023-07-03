@@ -4,6 +4,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
+(클라이언트)
 특정 주소 URL을 실행해서 문자열 데이터를 받아오는 코드
 */
 public class GetDataFromSpring {
