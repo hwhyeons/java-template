@@ -28,5 +28,7 @@ spring.datasource.password=admin
 test.db 자리에 원하는 경로 설정 (따로 설정 안하면 기본 프로젝트 경로)
 
 
+여기까지하고 Entity 만들고 스프링부트 구동시 자동으로 DB파일 생성
+
 ### 추가
 이전 버전에서는 sqlite dialect를 지원하지 않음
