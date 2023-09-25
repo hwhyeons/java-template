@@ -4,7 +4,9 @@ JDK 17
 Spring Boot 3.14
 
 
-### build.gralde
+<br/><br/>
+
+### build.gradle
 ```
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -29,6 +31,6 @@ test.db 자리에 원하는 경로 설정 (따로 설정 안하면 기본 프로
 
 
 여기까지하고 Entity 만들고 스프링부트 구동시 자동으로 DB파일 생성
-
+<br/>
 ### 추가
 이전 버전에서는 sqlite dialect를 지원하지 않음
