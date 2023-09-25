@@ -34,3 +34,4 @@ test.db 자리에 원하는 경로 설정 (따로 설정 안하면 기본 프로
 <br/>
 ### 추가
 이전 버전에서는 sqlite dialect를 지원하지 않음
+-> "org.hibernate.orm:hibernate-community-dialects"를 의존성에 추가해서 해결
