@@ -101,7 +101,7 @@ public class SwipeAnimation extends JPanel {
             frame.setVisible(true);
             try {
                 // 처음 화면 켜지고 1초 뒤부터 그리기 시작
-                Thread.sleep(1);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
