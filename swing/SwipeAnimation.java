@@ -33,6 +33,9 @@ public class SwipeAnimation extends JPanel {
         var thread = new Thread(() -> {
             try {
                 beforeTime = System.currentTimeMillis();
+                // Timer대신 반복문 + Thread.sleep() 사용
+                // 타이머 클래스 이용시 delay를 짧게 설정해도 평균 16ms정도의 딜레이를 무조건 가지게됨 -> 1000ms(1초)에 16ms -> 60프레임정도 밖에 안나옴
+                //    -> sleep()으로 간격 직접 조정
                 while (true) {
                     updateScreen();
                     Thread.sleep(REPAINT_SLEEP);
